@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project (Laboratory-work-5-sem2_example)
+project (Lab5-2sem2_example)
 set(SOURCES main.cpp)
 add_executable (${PROJECT_NAME} ${SOURCES})
-target_link_libraries(${PROJECT_NAME} Laboratory-work-5-sem2)
+target_link_libraries(${PROJECT_NAME} Lab5-2sem2)
