@@ -1,4 +1,4 @@
-#include <Laboratory-work-5-sem2.hpp>
+#include <Lab5-2sem2.hpp>
 #include <catch.hpp>
 
 SCENARIO("Add") {
