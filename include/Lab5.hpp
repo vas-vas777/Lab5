@@ -23,17 +23,17 @@ int Add(Type new_data, BinarySearchTree *&root)
  	else return root->data;		
  }		
 
-int print(int check1, BinarySearchTree *root)		
+int print(int tree1, BinarySearchTree *root)		
  {		
- 	if (!root) return check1; 		
- 	if (root->data == 10 ) check1 = 12;		
+ 	if (!root) return tree1; 		
+ 	if (root->data == 10 ) tree1 = 12;		
  			
- 	return check1;		
+ 	return tree1;		
  }
 
-int Search(int check2, BinarySearchTree *root)		
+int Search(int tree2, BinarySearchTree *root)		
  {		
- 	if (!root) return check2;		
+ 	if (!root) return tree2;		
  		
  	if(root->data >= 0) 		
  		{ 		
@@ -44,13 +44,13 @@ int Search(int check2, BinarySearchTree *root)
  		
  }
 
-int Deletion(int check3, BinarySearchTree *root)		
+int Deletion(int tree3, BinarySearchTree *root)		
  {		
- 	if (!root) return check3;		
+ 	if (!root) return tree3;		
  			
  	cout << endl << endl << "Type the node you want to delete: "; 		
  		
- 	if (root->data == check3) 		
+ 	if (root->data == tree3) 		
  		{ 		
  			cout << endl << "[-] Error: You are trying to remove the root of the tree!" << endl;		
  			return 0;		
@@ -59,7 +59,7 @@ int Deletion(int check3, BinarySearchTree *root)
  			
  }		
  
-int FreeTree(int check4, BinarySearchTree *&root)		
+int FreeTree(int tree4, BinarySearchTree *&root)		
  {		
  	if (root != NULL)		
  	{		
@@ -67,7 +67,7 @@ int FreeTree(int check4, BinarySearchTree *&root)
 		root = NULL;		
 	}		
 			
-	return check4;		
+	return tree4;		
 }
 
 };
