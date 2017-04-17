@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 
-#include "Lab5-2sem2.hpp"
+#include "Lab5.hpp"
 using namespace std;
 
 int main()
